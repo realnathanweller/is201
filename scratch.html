@@ -1,0 +1,124 @@
+<!--requirements for from-scratch page
+1. an unordered list embedded in an ordered list
+at least one image
+an embedded youtube video
+an on-page anchor
+a custom background color or image
+
+stylesheet requirements
+at least four style definitions
+styles that specify font color
+styles that specify font family
+three divs that are positions and styled using your styles
+navigation back to the professional-looking pages-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Tableau Document and Embedded YouTube Video</title>
+    <link rel="stylesheet" href="scratchstylesheet.css">
+</head>
+<body>
+
+    <div class="common header">
+        <a href="#requirements">| Requirements |</a>
+        <a href="#tableau">Is your county obese? |</a>
+        <a href="#yt">Embedded YouTube link |</a>
+        <a href="#nyc">A Picture of NYC |</a>
+        <a href="index.html">See my resume! |</a>
+    </div>
+    &nbsp;
+    <p></p>
+    &nbsp;
+    <p></p>
+
+
+    <h1>This is my super awesome Tableau dashboard online</h1>
+    <span class="nathan">
+        <ol id="requirements" class="common mainbody">Ordered List
+            <li>This page must be created from a blank html file.</li>
+            <li>This page must also be hosted online (e.g., via GitHub pages as shown in the previous section).</li>
+            <li>It must include the following as a demonstration of your ability to write html and css:
+                <ul>
+                    <li>An unordered list embedded in an ordered list</li>
+                    <li>At least one image (not from the bootstrap theme)</li>
+                    <li>An embedded YouTube video (we intentionally didn’t teach you this, so you would have to Google this – good learning experience)</li>
+                    <li>An on-page anchor</li>
+                    <li>a custom background color or image</li>
+                </ul>
+            </li>
+            <li>You also need to link to (and apply) a stylesheet that you have created from scratch. This stylesheet should include:
+                <ul>
+                    <li>At least four style definitions (it is possible you will have many more than four styles)</li>
+                    <li>Styles that specify font color</li>
+                    <li>Styles that specify font family</li>
+                    <li>At least three divs that are positioned and styled using your styles</li>
+                </ul>
+            </li>
+            <li>A live and interactive embedded Tableau graph (not just a picture of one).
+                <ul>
+                    <li>This graph can be about anything. It doesn’t have to be a graph you created, although it certainly can be.</li>
+                    <li>A quick Google search will show you where to find cool Tableau visualizations.</li>
+                
+                </ul>
+            </li>
+            <li>Navigation back to the professional looking pages.
+                <ul>
+                    <li>Your professional looking pages do not need to link to this page. This way you can use the professional side for whatever you want without worrying someone might find this DIY page…</li>
+                    <li>If you are a graduate student, you must also include a link on this from-scratch page to your extra page (see below).</li>
+                </ul>
+            </li>
+        </ol>
+        <h1 id="yt">This is my super awesome embedded YouTube video and Picture of NYC!</h>
+        <img src="new york cirty.jpg" alt="New York City" width="60%" id="nyc">
+        <iframe 
+    width="560" height="315" src="https://www.youtube.com/embed/9YffrCViTVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <div class='tableauPlaceholder' id='viz1669749913128' style='position: relative'>
+           <p id="tableau">This is Tableau</p>
+            <noscript><a href='#'>
+                <img alt='Is Your County Obese? Select your county to see how it compares with other counties in the country' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Is&#47;IsYourCountyObese_16697498223160&#47;Obesity&#47;1_rss.png' style='border: none' /></a>
+            </noscript>
+            <object class='tableauViz'style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='IsYourCountyObese_16697498223160&#47;Obesity' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Is&#47;IsYourCountyObese_16697498223160&#47;Obesity&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>
+    </span>               
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1669749913128'); 
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+    else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+    else { vizElement.style.width='100%';vizElement.style.height='827px';} 
+    var scriptElement = document.createElement('script');scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; 
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+<p></p>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<footer class="common footer">whatever</footer>
+</body>
+</html>     

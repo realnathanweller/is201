@@ -1,0 +1,70 @@
+/*
+stylesheet requirements
+at least four style definitions
+styles that specify font color
+styles that specify font family
+three divs that are positions and styled using your styles
+navigation back to the professional-looking pages
+*/
+
+@media screen {
+    
+}
+.common {
+    background-color: #ffffff
+    ;
+    border: 2px solid navy;
+
+
+}
+
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height:50px;
+    width: 100%;
+}
+.nathan{
+    font-size: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+    background-color: aqua;
+
+}
+.footer{
+    
+    position: relative;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    
+
+}
+.rightmenu {
+    top: 114px;
+    width: 100px;
+    right: 5px;
+    bottom: 39px
+
+}
+body{
+    background-color: wheat;
+
+}
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    padding-left: 275px;
+
+}
+.tableau {
+    width: 75%;
+}
